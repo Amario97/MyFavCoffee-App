@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"> // hightlights a single item in the drawer when clicked
+        <item
+            android:id="@+id/HomePageFragment"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/PreferenceQuiz"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Quiz" />
+        <item
+            android:id="@+id/FavoritesFragment"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/MapFragment"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Map" />
+    </group>
+</menu>
